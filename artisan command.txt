@@ -1,0 +1,15 @@
+conrollers are class based php file
+three type of controller:
+1.)Basic controllers
+2.)single action controllers
+3.)Resource controllers
+
+php artisan serve                        //Run Project or app
+php artisan make:component____           //make component
+php artisan make:controller____           //make controller
+php artisan migrate                      //for database migrate
+php artisan make:migration create_ name _table  //crete table migration data
+php artisan cache:clear                  //for clear caches
+php artisan migrate:rollback             //For table roll back
+php artisan make:model _____             //for databse create a model same name
+php artisan make:model _____ --migration //for create a model and database same name
