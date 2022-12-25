@@ -24,6 +24,7 @@ Route::get('/', function () {
 Route::get('/registraion',[CustomerController::class,'index']);
 Route::post('/registraion',[CustomerController::class,'registraion']);
 
+
 Route::get('/demo/{name?}/{id?}',function($name=null,$id=null){
     $data= compact('name','id');
     return view('welcome')->with ($data);
